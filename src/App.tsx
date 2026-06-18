@@ -1,5 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
-	return <div className="border border-red-300">App</div>;
+	return (
+		<main>
+			<Navbar />
+		</main>
+	);
 }
 
 export default App;
