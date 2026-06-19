@@ -57,7 +57,6 @@ export default function Message() {
 			scrollTrigger: {
 				trigger: ".message-content p",
 				start: "top center",
-				markers: true,
 			},
 		});
 
