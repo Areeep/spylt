@@ -13,7 +13,7 @@ export default function Testimonial() {
 
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".testiomonials-section",
+        trigger: ".testimonials-section",
         start: "top bottom",
         end: "200% top",
         scrub: true,
